@@ -24,7 +24,7 @@ const Login=()=>{
         
         
         if (!email || !username) { 
-            setErrorMessage('Mohon isi password'); 
+            setErrorMessage('Mohon Isi Password Anda'); 
             return; 
         }
         try {
@@ -63,7 +63,7 @@ const Login=()=>{
                     
                       <LockOutlinedIcon/>
                       </Avatar> */}
-                    <h2>Log In</h2>
+                    <h2>LOG IN</h2>
                 </Grid>
                 <TextField label='Username' placeholder='Enter username' value={username} onChange={(e) => setUsername(e.target.value)} fullWidth required/>
                 <br/><br/>

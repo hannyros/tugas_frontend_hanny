@@ -39,7 +39,7 @@ const Profile = () => {
                         <td>{`${raw.address.street}, ${raw.address.suite} ${raw.address.city} - ${raw.address.zipcode}`}</td>
                     </tr>
                     <tr>
-                        <th>No. Telefon</th>
+                        <th>No. Telepon</th>
                         <th style={{width: '20px'}}>:</th>
                         <td>{raw.phone}</td>
                     </tr>
